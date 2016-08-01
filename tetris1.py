@@ -1,8 +1,9 @@
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 import math
-"""
+
 GPIO.setmode(GPIO.BCM)
+GPIO.setup(7, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(15, GPIO.OUT)
@@ -19,7 +20,7 @@ GPIO.setup(35, GPIO.OUT)
 GPIO.setup(36, GPIO.OUT)
 GPIO.setup(37, GPIO.OUT)
 GPIO.setup(38, GPIO.OUT)
-"""
+
 PIN1=7
 PIN2=11
 PIN3=12
